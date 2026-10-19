@@ -16,4 +16,4 @@ class TeleportalosUrZokni extends UrZokni {
         this.galaxis = galaxis;    
     }    
     @Override    public String cimke() 
-    {        return "Teleport zokni: " + azonosito;    } }
+    {        return "Teleport zokni: " + getAzonosito();    } }

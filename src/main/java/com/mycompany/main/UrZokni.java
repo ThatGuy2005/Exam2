@@ -9,7 +9,7 @@ package com.mycompany.main;
  * @author Csongor
  */
 class UrZokni {    
-    public String azonosito;    
+    private String azonosito;    
     private int tisztasagPont;    
     public UrZokni(String azonosito, int tisztasagPont) {
         // azonosito = azonosito assigns value to itself
@@ -24,5 +24,9 @@ class UrZokni {
     public int getTisztasagPont() 
     {        return tisztasagPont;    }    
     public String cimke() 
-    {        return azonosito + ": " + tisztasagPont;    } 
+    {        return azonosito + ": " + tisztasagPont;    }
+    public String getAzonosito() 
+    {
+        return this.azonosito;
+    }
 }
