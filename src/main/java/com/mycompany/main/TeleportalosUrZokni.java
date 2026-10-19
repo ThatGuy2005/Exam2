@@ -15,6 +15,8 @@ class TeleportalosUrZokni extends UrZokni {
         super(azonosito, tisztasagPont);        
         this.galaxis = galaxis;    
     }    
+    // If we pass TeleportalosUrZokni to UrZokni, then this will be called
+    // since it is overriden. Overriding is decided at runtime.
     @Override    public String cimke() 
     {        return "Teleport zokni: " + getAzonosito() + "\nTisztasagPont:" 
             + getTisztasagPont() +"\nGalaxis: " + this.galaxis;    
