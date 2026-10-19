@@ -11,7 +11,11 @@ package com.mycompany.main;
 class UrZokni {    
     public String azonosito;    
     private int tisztasagPont;    
-    public UrZokni(String azonosito, int tisztasagPont) {        
+    public UrZokni(String azonosito, int tisztasagPont) {
+        // azonosito = azonosito assigns value to itself
+        // to make it clear that we want to assign to the member variable
+        // we use this.azonosito. This assigns the azonosito to the member
+        // variable of the instance when constructed.
         this.azonosito = azonosito;        
         this.tisztasagPont = tisztasagPont;    
     }    
